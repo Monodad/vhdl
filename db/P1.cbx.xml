@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="P1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Vhdl2|i2c_master:i2c_inst|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_flh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Vhdl2|i2c_master:i2c_inst|lpm_mux:Mux0" CBX_FILE_NAME="mux_s9c.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Vhdl2|i2c_master:i2c_inst|lpm_mux:Mux2" CBX_FILE_NAME="mux_s9c.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Vhdl2|i2c_master:i2c_inst|lpm_mux:Mux4" CBX_FILE_NAME="mux_s9c.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Vhdl2|i2c_master:i2c_inst|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_ilh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Vhdl2|i2c_master:i2c_inst|lpm_mux:Mux1" CBX_FILE_NAME="mux_s9c.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Vhdl2|i2c_master:i2c_inst|lpm_mux:Mux3" CBX_FILE_NAME="mux_s9c.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

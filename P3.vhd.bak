@@ -10,16 +10,16 @@ input : std_logic
 );
 end P3;
 
+test1 : block
+begin
 
+end block test1;
 
 architecture first of P3 is
 
 begin
 
-test1 : block
-begin
 
-end block test1;
 
 
 
