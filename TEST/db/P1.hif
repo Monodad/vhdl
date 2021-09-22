@@ -1,0 +1,153 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+45
+3518
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+i2c_master
+# storage
+db|P1.(0).cnf
+db|P1.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+i2c_master.vhd
+18bbdf662882cefe827f3638b7d7712d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+input_clk
+50000000
+PARAMETER_SIGNED_DEC
+DEF
+bus_clk
+400000
+PARAMETER_SIGNED_DEC
+DEF
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+Vhdl2
+# storage
+db|P1.(1).cnf
+db|P1.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+vhdl2.vhd
+18f7dabee4f4ebc0648646d4a2bfe21f
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+i2c_master
+# storage
+db|P1.(2).cnf
+db|P1.(2).cnf
+# architecture
+A:logic
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+i2c_master.vhd
+18bbdf662882cefe827f3638b7d7712d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+input_clk
+50000000
+PARAMETER_SIGNED_DEC
+USR
+bus_clk
+400000
+PARAMETER_SIGNED_DEC
+USR
+ constraint(addr)
+6 downto 0
+PARAMETER_STRING
+USR
+ constraint(data_wr)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(data_rd)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+i2c_master:i2c_inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+
